@@ -1,0 +1,27 @@
+Write program to find the sum of the following series using while loop 
+12 + 22 + 32 +…. N2
+
+
+2. 	Write a program to find the sum of all numbers between M and N, where N>M, using for loop.	
+
+
+3.	Write a program to accept a number from the user. Find and print the sum of digits of the number. (using do-while loop)	✓
+
+4.	Write a program that prints the first n Fibonacci numbers using a for loop.	
+
+5.	Write a program to accept a number from user and display if the number is Armstrong number. 
+
+6.	Write an algorithm to find a given number is palindrome or not.
+Example of Palindrome number:
+12321
+565
+Note:- Its number not string/character array…	
+
+
+7.	Write a program to check whether the entered number is prime or not. (make use of break) 	✓
+------------------------------------------------------------------------------------------------------
+
+1	Write a function that takes one integer parameter as a year, and displays its leap year or not. 
+
+4	WAP using user defined function to calculate and return factorial of a given integer.
+
