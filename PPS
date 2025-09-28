@@ -1,0 +1,487 @@
+
+Write programs to print the following patterns using nested loop, your all program should read number of lines to be displayed from user.        
+Sr. No.	Pattern To Be Printed Using Nested Loop	Flow chart
+1	
+*****
+****
+***
+**
+*
+	
+√
+2	????*
+???**
+??***
+?****
+*****
+	
+3        @
+    @      @
+@      @        @
+	
+4)
+A
+A  B
+A  B  C
+C  B  A
+B  A
+A	
+
+5
+A
+bc
+DEF
+ghij
+KLMNO	
+
+6
+54321
+4321
+321
+21
+1	
+
+7)
+1
+10
+101
+1010
+10101	
+
+
+8.	Write a program to check entered number is strong number or not. 	
+
+
+:  Programming using looping and unconditional statements
+
+Tasks:
+
+Sr. No.	Problem Statement	Flow chart
+1	Write program to find the sum of the following series using while loop 
+12 + 22 + 32 +…. N2	
+2. 	Write a program to find the sum of all numbers between M and N, where N>M, using for loop.	
+3.	Write a program to accept a number from the user. Find and print the sum of digits of the number. (using do-while loop)	✓
+4.	Write a program that prints the first n Fibonacci numbers using a for loop.	
+5.	Write a program to accept a number from user and display if the number is Armstrong number. (Armstrong number is the number in any given number base, which forms the total of the same number, when each of its digits is raised to the power of the number of digits in the number.)	
+6.	Write an algorithm to find a given number is palindrome or not.
+Example of Palindrome number:
+12321
+565
+Note:- Its number not string/character array…	
+7.	Write a program to check whether the entered number is prime or not. (make use of break) 	✓
+8.	Write a program to print the entire uppercase and lowercase letters using a loop (use continue).
+Hint: - ASCII values of A-65, a-97 there are not alphabets from 91 to 96, these values can be continued	
+9.	Write a program using loop to find the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two numbers.	
+	
+
+Programming using functions and strings (character array)
+
+Tasks:
+
+Sr. No.	Problem Statement
+1	Write a function that takes one integer parameter as a year, and displays its leap year or not. 
+2	Write a function that takes two integer parameters x & y, and returns the result XY.   (Don’t use pow( ))  
+3	Implement a program using user defined function to return largest of three floating-point numbers.
+4	WAP using user defined function to calculate and return factorial of a given integer.
+5	Write a menu driven program to compute sum of digits of a number, to find reverse of a number, to count number of digits by writing three different functions with parameters and return type.
+6	Write user defined function “Search_Element” to search element is present in 1D array or not. Search function accepts array, size of array and key to search as parameters. 
+7	Write a program to print Fibonacci series up to n using recursion. 
+8	Write one program to perform following operations on strings (Character Arrays)
+a)	To find length of a string 
+b)	To compare two string for equality
+c)	To Copy one string to other
+d)	To concatenate two string
+e)	To find reverse of a String
+9	WAP to copy one string to another string without using string handling function and display copied string (Character Arrays). 
+
+
+Tasks:
+1.		Write a program to initialize your details like age, name, gender, city, height etc and display it. (for name & city use character array ex. char name [20]) 
+2.		Write a program to read your details like age, name, gender, city, height etc and display it.
+3.		Write a program to exchange values of two variables without using 3rd variable
+4.		Given the value of x, y, and z. Write a program to rotate their values such that x has value of y, y has value of z and z has value of x.
+5.		Write a program to find area & perimeter of a circle
+6.		Write a program to calculate simple interest.
+7.		Write a program to convert temperature in Celsius to Fahrenheit.
+8.		A four-digit number is inputted through the keyboard. Write a program to calculate sum of digits of a number.
+9.		A four-digit number is inputted through the keyboard. Write a program to reverse the number.
+10.		Write a program to find largest of two numbers using ternary operator.
+11.		If the length of three sides of a triangle is input through the keyboard, write a program to find the area of triangle and check whether the triangle is valid or not using conditional operator. Hint: - A triangle is valid if the sum of its two sides is greater than the third side.
+12.		Write a program to calculate compound interest.
+
+
+Tasks:
+Sr. No.	Problem Statement	Flow chart
+1	Write a program to calculate the Goods and Services Tax (GST) for a given amount based on the GST rate. The program should be able to handle different GST rates and provide a clear breakdown of the total amount, GST amount, and the amount before GST. Your program should accept the original price of the item and the GST rate. The rate can be a whole number or a decimal. The program should display the amount of GST applied, price before GST and after GST.  Constraints: The original price should be a positive number and the GST rate should be a non-negative number and can be a decimal ranging from 0% to 28%.	
+2	Build a program to determine the second largest number from a set of three numbers.	
+3. 	Implement a program to find roots of quadratic equation using if-else.	✓
+4.	Develop a program to calculate the electricity bill including a discount based on the total bill amount. The initial base bill is 100 Rs, and the program should calculate the total bill amount by multiplying the number of units consumed by 10 Rs per unit and then adding this amount to the base bill. The discount should be applied according to predefined ranges of bill amounts based on the following ranges:
+	Bill Amount ≤ 200: No discount
+	200 < Bill Amount ≤ 500: 5% discount
+	500 < Bill Amount ≤ 800: 10% discount
+	800 < Bill Amount ≤ 1100: 15% discount
+	Bill Amount > 1100: 20% discount
+The program should display initial base bill amount, bill amount, percentage discount applied, the discount amount applied and the total bill amount after applying the discount.	
+5. 	Write a program that uses a switch-case statement to determine whether an entered character is a vowel or a consonant. The program should also validate (using if-else) the input to ensure that only alphabetic characters are processed. If the input is a number or a special symbol, the program should indicate that the input is not an alphabetic character. 	
+6. 	Implement a menu-driven program to calculate the area of a triangle, rectangle, circle, and sphere.	
+7. 	Develop a program that takes an arithmetic operator (+, -, *, or /) and two operands from the user. Perform corresponding arithmetic operations on the operands using switch case.	
+Additional Questions
+1.	Develop a program that accepts sales amount; if the sales amount is more than 5000, then the discount is 12% of the sales amount; otherwise, it is 7%—display the total discount and amount to be paid after the discount.
+2.	Implement a program to accept a year as input and print whether it is a leap. A year is a leap if divisible by 4, and centennial years (years divisible by 100) are leap years only when divisible by 400.
+3.	Write a program to test whether a given character is a capital or small letter and change small letters to capital letters and vice versa.
+4.	Develop a program to perform divisibility tests by 3 and 5.  If the entered number is divisible by three and not by five print “THREE”; if the number is divisible by five and not by three print “FIVE”; if divisible by both 3 & 5 print “BOTH” otherwise, print “NOT”
+5.	Vitamin D3 is recommended as the best indicator of vitamin D's nutritional status. If any patient is undergone a Vitamin D3 test, its value ranges from 0 <= to >100 nm/ML. Scott is a Pathologist, and he is doing a vitamin D3 test on his patient. You have to help him automate this process to know the status/level of vitamin D3 depending on its values in nm/mL. Write a program to help Scott to tell the status/level to patients as given in the table below.
+D3 in nm/ML	Status
+<20	Deficiency
+20-30 	Insufficiency
+30-100	Sufficiency
+>100	Toxicity
+
+
+Tasks:
+Sr. No.	Problem Statement	Flow chart
+1	Write program to find the sum of the following series using while loop 
+12 + 22 + 32 +…. N2	
+2. 	Write a program to find the sum of all numbers between M and N, where N>M, using for loop.	
+3.	Write a program to accept a number from the user. Find and print the sum of digits of the number. (using do-while loop)	✓
+4.	Write a program that prints the first n Fibonacci numbers using a for loop.	
+5.	Write a program to accept a number from user and display if the number is Armstrong number. (Armstrong number is the number in any given number base, which forms the total of the same number, when each of its digits is raised to the power of the number of digits in the number.)	
+6.	Write an algorithm to find a given number is palindrome or not.
+Example of Palindrome number:
+12321
+565
+Note:- Its number not string/character array…	
+7.	Write a program to check whether the entered number is prime or not. (make use of break) 	✓
+8.	Write a program to print the entire uppercase and lowercase letters using a loop (use continue).
+Hint: - ASCII values of A-65, a-97 there are not alphabets from 91 to 96, these values can be continued	
+9.	Write a program using loop to find the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of two numbers.	
+
+ 
+
+Additional Programming Questions: -
+1.	Write a program to display the sum of N terms of even natural numbers.                                   Hint:-Suppose value of N=6, then first N terms are 2+4+6+8+10+12
+2.	Write a program in C++ to find the number and sum of all integers between 100 and 200 which are divisible by 9.
+3.	Implement a program to print all Leap Years from 1 to N using C++ program.(Using -for)
+4.	Write a program to print the sum of the last and the first digit of a number the user gives. (Uisng-While)
+5.	Write a program to find the power of a number XY; here, X is base and Y is exponent (using for loop)
+6.	Write a program in C++ to check the perfect number using while loop
+7.	Write a program to count +ve number, -ve number and zeros until user want, make use of do while loop. (using do-while)
+8.	Write a C++ program that asks the user to enter positive integers in order to process count, maximum, minimum, and average or terminate the process with -1.
+
+Nested Loop Question: -
+1.	Write a program to check whether a number is a strong number or not.
+2.	Write a program in C++ to calculate the series (1) + (1+2) + (1+2+3) + (1+2+3+4) + ... + (1+2+3+4+...+n).
+
+
+Theory:
+Nested Loop (loop inside loop):
+
+-	A loop within another loop is known as nested loop.
+-	Combinations of any loops are possible. 
+
+ 
+ 
+Nested Loop
+
+
+ 
+
+ 
+
+Additional Questions: -
+1.	Write a program to print tables from 1 to 10
+2.	WAP to generate all combinations of 1, 2 & 3 using for loop.
+3.	Write a C++ program to print Armstrong numbers between N1 to N2, where N2>N1.
+4.	Write a C++ program to print prime numbers between N1 to N2, where N2>N1.
+5.	Write a program in C++ to calculate the series (1) + (1+2) + (1+2+3) + (1+2+3+4) + ... + (1+2+3+4+...+n).
+
+
+
+Tasks:
+Sr. No.	Problem Statement
+1	Write a program to multiply each element of an array by 5 and display the resultant array. 
+2	Write a program to count and display number of odd & even elements from an array (1D) separately.
+3	Implement a program to find the intersection of two arrays
+4	WAP to copy one array into another array in reverse order.
+5	Create a program to exchange first and last element of the 1D array of size N. 
+6	Develop a program to perform sum of elements of matrix (2D array) of order MXN.
+7	Develop a program to find sum of elements of lower triangular matrix of order MxN.
+8	Implement a program to find the largest element in matrix of order 3X3.
+9	Write a program to perform multiplication of two matrix of order mXn and pXq and display the resultant matrix.
+ 
+Practice Questions:-
+1.	Write a program to find sum of odd & sum of even numbers from array separately
+2.	Write a program to find and display odd & even numbers from an array (1D) separately of size N.
+3.	WAP to copy one array into another array in reverse order.
+4.	Implement a program to reverse elements of 1D array and display it.
+5.	WAP to delete an element from an array.
+6.	Develop a program to copy one 1D array into another 1D array and display copied array. 
+7.	WAP to find Sum of diagonal elements of MxN matrix.
+8.	WAP to find Sum of elements of upper triangular of MxN matrix.
+9.	WAP to find Matrix addition [of order mXn and pXq].
+
+
+Programming using 1D Array & 2D array
+
+Tasks:
+Sr. No.	Problem Statement
+1	Write a program to multiply each element of an array by 5 and display the resultant array. 
+2	Write a program to count and display number of odd & even elements from an array (1D) separately.
+3	Implement a program to find the intersection of two arrays
+4	WAP to copy one array into another array in reverse order.
+5	Create a program to exchange first and last element of the 1D array of size N. 
+6	Develop a program to perform sum of elements of matrix (2D array) of order MXN.
+7	Develop a program to find sum of elements of lower triangular matrix of order MxN.
+8	Implement a program to find the largest element in matrix of order 3X3.
+9	Write a program to perform multiplication of two matrix of order mXn and pXq and display the resultant matrix.
+
+
+Additional Questions
+1.	Write a program to find sum of odd & sum of even numbers from array separately
+2.	Write a program to find and display odd & even numbers from an array (1D) separately of size N.
+3.	WAP to copy one array into another array in reverse order.
+4.	Implement a program to reverse elements of 1D array and display it.
+5.	WAP to delete an element from an array.
+6.	Develop a program to copy one 1D array into another 1D array and display copied array. 
+7.	WAP to find Sum of diagonal elements of MxN matrix.
+8.	WAP to find Sum of elements of upper triangular of MxN matrix.
+9.	WAP to find Matrix addition [of order mXn and pXq].
+
+
+Strings (Using Character Arrays)
+-	String is an array of characters
+-	Strings terminated with ‘\0’
+-	Declaration of String…
+Syntax:-
+	char string_name[size];
+		example:-
+			char month[15];
+			char studentname[20];
+			char s1[10],s2[10]; 
+-	Initialization of String…
+Syntax:-
+	char string_name[size] = {characters in single inverted comma, separated with comma};
+or
+	char string_name[size] = “string”;
+Example:-
+	char subject[10] = {‘c’,‘p’,‘p’, ‘\0’ };
+	char name[10] = “cpp”;
+	char name[ ] = “cpp”; 
+ 
+-	Reading String…
+o	There are various ways to read the stings, we can read it using cin statement
+
+-	Displaying String…
+o	There are various ways to display stings, we can use cout statement to display
+Write a program to initialize and display sting…
+#include<iostream>
+using namespace std;
+int main(){
+    char s[15]="Programming";
+    cout<<"String is "<<s;
+}
+Write a program to read string from user and display it…
+#include<iostream>
+using namespace std;
+int main(){
+    char s[15];
+    cout<< “Enter your name”;
+    cin>>s;
+    cout<<"Welcome"<<s;
+}
+Write a program for Traversing/Processing a String Using Loop…
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s[15]="Programming";
+    cout<<"String is \n";
+    for (int i=0;s[i]!='\0';i++)
+        cout<<s[i];
+}
+ 
+…String Handling Functions…
+-	There are various string handling functions available in cstring header file
+string length - strlen(s1)
+string reverse - strrev(s1)
+string lower - strlwr(s1)
+string upper - strupr(s1)
+string copy - strcpy(s1,s2) & strncpy(s1,s2,n)
+string concatenation – strcat(s1,s2) & strncat(s1,s2,n)
+string comparison – strcmp(s1,s2) & strncmp(s1,s2,n)
+string character - strchr(s1,ch)
+string reverse character - strrchr(s1,ch)
+String Length…
+-	strlen(str_name);
+WAP to find length of a string using string handling function.
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="C++",s2[15]="Programming";
+    int l1,l2;
+    l1=strlen(s1);
+    l2=strlen(s2);
+    cout<<l1<<" "<<l2;
+}
+
+//WAP to Find length of a string without using string handling function…
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s[15]="Programming";
+    int l=0;
+    for (int i=0;s[i]!='\0';i++)
+            l++;
+    cout<<l;
+}
+
+String Concatenation…
+-	strncat(s1,s2 )
+
+
+String Copy…
+-	strncpy(s1,s2)
+WAP to copy on string to another using string handling function.
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="CPP",s2[10]="Python";
+    strcpy(s1,s2);
+    cout<<"After Copying String is "<<s1;
+}
+
+-	strncpy(s1,s2,n)
+WAP to copy n characters in one string to another using string handling function.
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="",s2[10]="CPP";
+    strncpy(s1,s2,1);
+    cout<<"After Copying String is "<<s1;
+}
+
+String Compare…
+-	strcmp(s1,s2)
+WAP to compare two strings using string handling function.
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="CPP",s2[10]="CPP2";
+    int c = strcmp(s1,s2);
+    if(c==0)
+        cout<<"Equal";
+    else
+        cout<<"Not Equal";
+}
+-	strncmp(s1,s2,n)
+WAP to compare two strings upto n characters using string function.
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="C++",s2[10]="CPP2";
+    int c = strncmp(s1,s2,1);
+    if(c==0)
+        cout<<"Equal";
+    else
+        cout<<"Not Equal";
+}
+
+WAP to demonstrate strchr() function.
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="Dhananjay",ch='a';
+    char *s2=strchr(s1,ch);
+    cout<<s2;
+}
+
+WAP to demonstrate strrchr() function 
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="Dhananjay",ch='a';
+    char *s2=strrchr(s1,ch);
+    cout<<s2;
+}
+
+WAP to find reverse of a string using string function.
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s1[10]="madaM";
+    strrev(s1);
+    cout<<s1;
+}
+
+WAP to demonstrate working of strlwr()
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s[10]="SHALVI";
+    strlwr(s);
+    cout<<s;
+    return 0;
+}
+WAP to demonstrate working of strlupr()
+#include<iostream>
+#include<cstring>
+using namespace std;
+int main(){
+    char s[10]="Shalvi";
+    strupr(s);
+    cout<<s;
+    return 0;
+}
+ 
+Tasks:
+Sr. No.	Problem Statement
+1	Write a function that takes one integer parameter as a year, and displays its leap year or not. 
+2	Write a function that takes two integer parameters x & y, and returns the result XY.   (Don’t use pow ( ))  
+3	Implement a program using user defined function to return largest of three floating-point numbers.
+4	WAP using user defined function to calculate and return factorial of a given integer.
+5	Write a menu driven program to compute sum of digits of a number, to find reverse of a number, to count number of digits by writing three different functions with parameters and return type.
+6	Write user defined function “Search_Element” to search element is present in 1D array or not. Search function accepts array, size of array and key to search as parameters. 
+7	Write a program to print Fibonacci series up to n using recursion. 
+8	Write one program to perform following operations on strings (Character Arrays)
+f)	To find length of a string 
+g)	To compare two string for equality
+h)	To Copy one string to other
+i)	To concatenate two string
+j)	To find reverse of a String
+9	WAP to copy one string to another string without using string handling function and display copied string (Character Arrays). 
+
+
+ 
+Tasks:
+
+1. Define structure Employee having data members: emp no, name, address, dept and salary. WAP to read and display information of a employee.
+
+2. Define structure called Employee that will describe the following data emp no, name, address, dept and salary. Develop a program that store information of 10 employees and display names of the employees having salary greater than 50000.
+
+3. There are 50 computers in an office. Every computer has following information CPU type, hard disk size. WAP to store details of all 50 computers and then print details of computers having hard disk size greater than 8 GB. 
+
+4. WAP to print ID array of size N using pointer
+
+5. WAP to print string (character array) in reverse order using pointers
+
+6. WAP to find reverse of a string using pointer
+
+7. Write a program to check entered string is palindrome or not using pointer
+
+Additional Question:
+
+1. WAP to copy one string to another using pointer and display copied string-using pointer.
+
+2. WAP to find the number of vowels in entered string using pointer [eg -i/p India o/p A-1, E-0, 1-2, 0-0, U-0]
+ 
+
