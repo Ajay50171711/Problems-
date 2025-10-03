@@ -1,4 +1,38 @@
 #include <iostream>
+using namespace std;
+
+// Define a struct
+struct Student {
+    int id;
+    char grade;
+    float marks;
+};
+
+int main() {
+    // Normal struct variable
+    Student s1 = {101, 'A', 95.5};
+
+    // Pointer to struct
+    Student *ptr = &s1;
+
+    // Access members using dot operator
+    cout << "Using dot operator:" << endl;
+    cout << "ID: " << s1.id << ", Grade: " << s1.grade << ", Marks: " << s1.marks << endl;
+
+    // Access members using pointer and arrow operator
+    cout << "\nUsing pointer (arrow operator):" << endl;
+    cout << "ID: " << ptr->id << ", Grade: " << ptr->grade << ", Marks: " << ptr->marks << endl;
+
+    // Modify values using pointer
+    ptr->marks = 99.0;
+    cout << "\nAfter modification via pointer:" << endl;
+    cout << "Marks: " << s1.marks << endl;
+
+    return 0;
+}
+
+==================================================================
+#include <iostream>
 #include <string>
 using namespace std;
 
@@ -36,6 +70,42 @@ int main() {
         cout << "Roll No: " << s[i].roll_no << endl;
         cout << "Name: " << s[i].name << endl;
         cout << "Marks: " << s[i].marks << endl;
+    }
+
+    return 0;
+}
+============================================================================================
+
+#include <iostream>
+using namespace std;
+
+// Define a struct
+struct Student {
+    int id;
+    char grade;
+    float marks;
+};
+
+int main() {
+    // Array of struct
+    Student s[3];
+
+    // Pointer to struct
+    Student *ptr = s;
+
+    cout << "Enter details of 3 students (id grade marks):\n";
+    // Input using pointer + loop
+    for (int i = 0; i < 3; i++) {
+        cout << "Student " << i + 1 << ": ";
+        cin >> (ptr+i)->id >> (ptr+i)->grade >> (ptr+i)->marks;
+    }
+
+    cout << "\nStudent details are:\n";
+    // Output using pointer + loop
+    for (int i = 0; i < 3; i++) {
+        cout << "ID: " << (ptr+i)->id 
+             << ", Grade: " << (ptr+i)->grade 
+             << ", Marks: " << (ptr+i)->marks << endl;
     }
 
     return 0;
